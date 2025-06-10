@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RestroRank</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Yatra+One&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg custom-nav px-4 fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand text-black" href="#" style="font-family: Yatra One; font-size: 30px;">
+      <img src="Vector1.png" alt="Logo" height="50" class="me-2" />
+      RestroRank
+    </a>
+    <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon bg-white rounded"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav gap-3">
+        <li class="nav-item">
+          <a class="nav-link text-white nav-hover" href="#features">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white nav-hover" href="#how">How It Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white nav-hover" href="#pricing">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white nav-hover" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<style>
+  .navbar-nav .nav-link.nav-hover:hover {
+    color: #000000 !important;
+    background-color: transparent;
+    transition: color 0.2s;
+  }
+</style></li>
+
+
+<div class="main-bg">
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <video autoplay muted loop playsinline class="bg-video">
+      <source src="video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div class="overlay"></div>
+    <div class="hero-content text-center">
+      <div class="container">
+        <h2 class="display-5 fw-bold">Where Great Restaurants Rise to the Top</h2>
+        <p class="lead">Discover the best local eats, rated by real diners. Boost your restaurant's visibility with smart promotion tools.</p>
+        <a class="cta btn btn-warning text-white fw-semibold" href="#pricing">Get Started</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-5">
+    <div class="container text-center">
+      <h3 class="mb-4" style="font-family: Yatra One; font-size: 50px;">Features</h3>
+      <div class="row justify-content-center g-3">
+        <div class="col-12 col-md-6">
+          <div class="rounded shadow p-3" style="background-color: #f2cc8f; height: 100%;">
+            <li class="list-unstyled mb-2">✅ User ratings & reviews</li>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="rounded shadow p-3" style="background-color: #f2cc8f; height: 100%;">
+            <li class="list-unstyled mb-2">✅ Top visibility for premium partners</li>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="rounded shadow p-3" style="background-color: #f2cc8f; height: 100%;">
+            <li class="list-unstyled mb-2">✅ Real-time analytics for restaurants</li>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="rounded shadow p-3" style="background-color: #f2cc8f; height: 100%;">
+            <li class="list-unstyled mb-2">✅ Search by location, cuisine, or rating</li>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+<section id="how" class="py-5">
+  <div class="container text-center">
+    <h3 class="mb-4" style="font-family: Yatra One; font-size: 50px;">🔄 How It Works</h3>
+    <div id="howCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active text-center">
+          <div class="p-4 border rounded shadow mx-auto" style="max-width: 400px; padding: 2rem; background-color: #f2cc8f;">
+            <li class="list-unstyled fs-5">📱 Download the app</li>
+          </div>
+        </div>
+        <div class="carousel-item text-center">
+          <div class="p-4 border rounded shadow mx-auto" style="max-width: 400px; padding: 2rem; background-color: #f2cc8f;">
+            <li class="list-unstyled fs-5">🍛 Explore restaurants</li>
+          </div>
+        </div>
+        <div class="carousel-item text-center">
+          <div class="p-4 border rounded shadow mx-auto" style="max-width: 400px; padding: 2rem; background-color: #f2cc8f;">
+            <li class="list-unstyled fs-5">🌟 Rate your experience</li>
+          </div>
+        </div>
+        <div class="carousel-item text-center">
+          <div class="p-4 border rounded shadow mx-auto" style="max-width: 400px; padding: 2rem; background-color: #f2cc8f;">
+            <li class="list-unstyled fs-5">📊 Restaurants get visibility and insights</li>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#howCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#howCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="py-5">
+    <div class="container text-center">
+      <h3 class="mb-4" style="font-family: Yatra One; font-size: 50px;">💼 Pricing Plans</h3>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-5">
+          <div class="plan border rounded p-4 h-100">
+            <h4>Free</h4>
+            <p>✅ Basic Listing<br />❌ No priority display<br />✅ User reviews</p>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="plan premium border rounded p-4 h-100">
+            <h4>Premium</h4>
+            <p>✅ Top search ranking<br />✅ Analytics Dashboard<br />✅ In-app Ads</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+<section id="contact-us" class="py-5">
+  <div class="container">
+    <h3 class="mb-4 text-center" style="font-family: Yatra One; font-size: 50px;"> Contact Us</h3>
+    <form>
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="4" placeholder="Your message..." required></textarea>
+      </div>
+      <button type="submit" class="btn btn-warning text-white fw-semibold">Send</button>
+    </form>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer id="contact" class="py-5 bg-dark text-white text-center">
+    <div class="container">
+      <h3 class="text-center">Contact Us</h3>
+      <p>Email: baasitjaber@gmail.com</p>
+      <p>Follow us on Instagram & Twitter: @RestroRank</p>
+      <hr class="my-4" />
+      <p class="mb-0">&copy; 2024 RestroRank. All rights reserved.</p>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+  document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
+    link.addEventListener('click', function () {
+      const navbar = document.querySelector('.navbar-collapse');
+      if (navbar.classList.contains('show')) {
+        new bootstrap.Collapse(navbar).toggle();
+      }
+    });
+  });
+</script>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
